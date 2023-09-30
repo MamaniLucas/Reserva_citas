@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3E98EBEE-5F23-AD0E-ABF0-0F7ABC12FEF1" mainViewID="1F4BF9EF-C7C5-1694-714B-F594C4C95AC3">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:34:02 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

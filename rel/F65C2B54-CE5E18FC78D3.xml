@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" mainViewID="1928D301-FCB9-A308-66F2-9C0CCD2D4E00">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:34:05 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

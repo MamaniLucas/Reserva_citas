@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="A6903534-8276-9F2A-B9A5-1D0849359022">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 21:52:28 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<sourcePk>F83EF826-85B9-1697-B09E-196540998975</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C668B4A8-44EB-FE1F-BF46-37B78D1606C9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0AA016CD-39BC-CF9D-656A-1EB709831287</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F2CB2C2-29C9-02F5-A53F-2BBF6F630170" name="Cita_medica">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:34:47 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Cita_med</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Paciente_id" id="1B90D885-DD4D-7358-3EBC-FCC7E2D91FE0">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:35:51 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cita_id" id="917D7921-5C79-E42A-4FBB-6A63B07B9128">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:37:50 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Medico_ID" id="7D3E5004-E044-D1B1-D7F6-6D9127B14BDB">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:39:12 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_registro" id="C19E6F40-CB87-E6E8-F177-8F9EE6EBA5F9">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:39:51 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_cita" id="F6DD41C2-0E2C-A805-067E-C751C32E78F7">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:40:32 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_cita" id="18378B8B-B5BF-C511-CB18-C796D924883C">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:49:19 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_cita" id="A802FE80-4A16-6B60-780C-770FBB6A969C">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:49:38 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo" id="CD51841C-963A-AC2B-E44E-2DFA9E78C297">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:49:51 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cita_realizada" id="F66221BB-2BCD-DDA1-B732-33BD9149FE1B">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:52:18 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Medico_id1" id="93A619A5-824A-4B0C-A0FA-6CBE50C16253">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 21:50:30 UTC</createdTime>
+<generatorID>12C356C7-3077-BE30-53B4-B0C3E6AA0A73</generatorID>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<referedAttribute>0FC46A3A-CD5C-DB97-97FD-AE7910896B54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Paciente_id1" id="4300A9D8-33C6-8765-0ECD-6C866C7CC26A">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 21:51:32 UTC</createdTime>
+<generatorID>12C356C7-3077-BE30-53B4-B0C3E6AA0A73</generatorID>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<referedAttribute>9C8592FD-6453-8520-742E-766C3A23732F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6913E40F-DD6D-6AA0-2372-FECE91C8FC1B" name="Cita_medica PK">
+<createdBy>myria</createdBy>
+<createdTime>2022-06-05 17:36:35 UTC</createdTime>
+<ownerDesignName>Relacion_Citas_medicas</ownerDesignName>
+<engineerTo>
+<item key="F65C2B54-3AE1-5C11-1D79-CE5E18FC78D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>917D7921-5C79-E42A-4FBB-6A63B07B9128</attributeRef>
+<attributeRef>1B90D885-DD4D-7358-3EBC-FCC7E2D91FE0</attributeRef>
+<attributeRef>7D3E5004-E044-D1B1-D7F6-6D9127B14BDB</attributeRef>
+<attributeRef>93A619A5-824A-4B0C-A0FA-6CBE50C16253</attributeRef>
+<attributeRef>4300A9D8-33C6-8765-0ECD-6C866C7CC26A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
